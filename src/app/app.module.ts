@@ -12,6 +12,7 @@ import { SportModule } from './modules/sport/sport.module';
 import { ErrorPageComponent } from './components/error-page/error-page.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HomeModule } from './modules/home/home.module';
 
 @NgModule({
   declarations: [
@@ -22,11 +23,12 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     HealthModule,
     PoliticsModule,
     ArtModule,
     SportModule,
+    HomeModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [
