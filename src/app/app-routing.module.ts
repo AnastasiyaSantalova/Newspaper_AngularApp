@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ErrorPageComponent } from './components/error-page/error-page.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
 
 
 const routes: Routes = [
@@ -8,6 +9,7 @@ const routes: Routes = [
   { path: 'health', loadChildren: () => import('./modules/health/health.module').then((m) => m.HealthModule) },
   { path: 'politics', loadChildren: () => import('./modules/politics/politics.module').then((m) => m.PoliticsModule) },
   { path: 'sport', loadChildren: () => import('./modules/sport/sport.module').then((m) => m.SportModule) },
+  { path: '', component: HomePageComponent },
   { path: '**', component: ErrorPageComponent },
 ];
 

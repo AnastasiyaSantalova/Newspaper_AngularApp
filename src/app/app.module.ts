@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { ErrorPageComponent } from './components/error-page/error-page.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { HomeModule } from './modules/home/home.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +17,6 @@ import { HomeModule } from './modules/home/home.module';
   ],
   imports: [
     BrowserModule,
-    HomeModule,
     AppRoutingModule,
   ],
   providers: [],
