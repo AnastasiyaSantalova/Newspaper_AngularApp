@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { PoliticsPageComponent } from './politics-page/politics-page.component';
 
 const routes: Routes = [
-  { path: 'politics', component: PoliticsPageComponent }
+  { path: '', component: PoliticsPageComponent }
 ];
 
 @NgModule({

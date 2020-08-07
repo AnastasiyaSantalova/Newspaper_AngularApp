@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HealthPageComponent } from './health-page/health-page.component';
 
 const routes: Routes = [
-  { path: 'health', component: HealthPageComponent }
+  { path: '', component: HealthPageComponent }
 ];
 
 @NgModule({

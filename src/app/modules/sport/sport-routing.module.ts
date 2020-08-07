@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { SportPageComponent } from './sport-page/sport-page.component';
 
 const routes: Routes = [
-  { path: 'sport', component: SportPageComponent }
+  { path: '', component: SportPageComponent }
 ];
 
 @NgModule({

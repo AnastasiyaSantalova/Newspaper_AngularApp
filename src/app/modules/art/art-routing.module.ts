@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import {ArtPageComponent} from './art-page/art-page.component';
 
 const routes: Routes = [
-  { path: 'art', component: ArtPageComponent }
+  { path: '', component: ArtPageComponent }
 ];
 
 @NgModule({
