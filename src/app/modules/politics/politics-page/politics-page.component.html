@@ -3,3 +3,17 @@
            [headers]="headers"
            class="striped celled">
 </app-table>
+
+<app-subtitle>Biographies of candidates</app-subtitle>
+<app-tabs>
+    <a class="item"
+        routerLink="./"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+    >
+        Biographies
+    </a>
+    <a class="item" routerLink="./steve-jobs" routerLinkActive="active">Steve Jobs</a>
+    <a class="item" routerLink="./bon-jovi" routerLinkActive="active">Bon Jovi</a>
+    <a class="item" routerLink="./michael-kors" routerLinkActive="active">Michael Kors</a>
+</app-tabs>
