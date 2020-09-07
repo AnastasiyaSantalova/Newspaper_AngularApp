@@ -1,0 +1,7 @@
+table.ui.table {
+    width: 50%;
+}
+
+table.ui.table th, table.ui.table td {
+    text-align: center;
+}
